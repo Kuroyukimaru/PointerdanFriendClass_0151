@@ -1,7 +1,10 @@
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
+class mahasiswa {
+public:
+    int nim;
+    void showNim() {
+        cout << "No Induk = " << nim << endl;
+    }
+};
